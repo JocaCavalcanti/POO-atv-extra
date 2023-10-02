@@ -22,7 +22,6 @@ class Cliente {
         return nome;
     }
 
-    // Getters e setters
 }
 
 class Conta {
@@ -46,7 +45,6 @@ class Conta {
         return saldo;
     }
 
-    // Getters e setters
 }
 
 class Agencia {
@@ -70,7 +68,6 @@ class Agencia {
         return nome;
     }
 
-    // Getters e setters
 }
 
 class Transacao {
@@ -97,7 +94,6 @@ class Transacao {
         return descricao;
     }
 
-    // Getters e setters
 }
 
 class Produto {
@@ -167,7 +163,7 @@ public class Main {
         produtos.add(produto1);
         produtos.add(produto2);
 
-        // Exibir informações dos objetos (exemplos)
+
         System.out.println("Cliente 1: " + clientes.get(0).getNome());
         System.out.println("Conta 2: " + contas.get(1).getSaldo());
         System.out.println("Agência 1: " + agencias.get(0).getNome());
